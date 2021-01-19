@@ -1,0 +1,49 @@
+body
+{
+	font-family: 'Lato', sans-serif;
+}
+nav
+{
+	background-color: #990000;
+}
+.navbar-brand
+{
+	font-family: 'Noto Serif KR', serif;	
+}
+.span
+{
+	color: #FFCC00;
+}
+.navbar-nav
+{
+	font-size: 20px;
+}
+.header
+{
+	color:white;
+}
+.format
+{
+	border :3px grey outset;
+	padding: 10px;
+	width:80%;
+}
+hr
+{
+	background-color:grey;
+}
+@media(min-width: 768px) 
+{
+	.format
+	{
+		width:65%;
+	}
+}
+@media(min-width: 992px) 
+{
+	.format
+	{
+		width:50%;
+	}
+}
+
